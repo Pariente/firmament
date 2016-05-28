@@ -1,0 +1,75 @@
+/* ----------- iPhone 4 ----------- */
+
+@media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+    h1 {
+      font-size: 16pt;
+    }
+
+    h2, h3 {
+      font-size: 14pt
+    }
+
+    p {
+      font-size: 11pt
+    }
+    .download-icons > img {
+      height: 30pt;
+    }
+    .download-icons > img {
+      height: 30pt;
+    }
+}
+
+/* ----------- iPhone 5 ----------- */
+
+@media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 568px) {
+    h1 {
+      font-size: 16pt;
+    }
+
+    h2, h3 {
+      font-size: 14pt
+    }
+
+    p {
+      font-size: 11pt
+    }
+
+    .download-icons > img {
+      height: 30pt;
+    }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    body {
+      max-width: 700px;
+      margin: auto
+    }
+    header {
+      margin: 10pt
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    body {
+      max-width: 700px;
+      margin: auto
+    }
+    header {
+      margin: 10pt
+    }
+}
