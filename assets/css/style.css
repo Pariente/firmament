@@ -55,7 +55,8 @@ img {
 
 header > img {
   border: 1pt solid #FFFFFF;
-  border-radius: 4pt
+  border-radius: 4pt;
+  height: 22.5pt;
 }
 
 header > h1 {
@@ -71,10 +72,18 @@ footer {
   vertical-align: middle
 }
 
+footer img {
+  height: 30pt
+}
+
 .download-icons > img {
   height: 35pt;
   margin: 20pt 5pt 30pt;
   cursor: pointer;
+}
+
+.iphone-img > img {
+  width: 300px;
 }
 
 .title-point {
