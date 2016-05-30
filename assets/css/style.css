@@ -90,6 +90,51 @@ footer img {
   margin: 40pt 0pt 20pt
 }
 
+.btn-newsletter {
+  display: inline-block;
+  margin-bottom: 10pt
+}
+
+.email-field {
+  border-top-left-radius: 4pt;
+  border-bottom-left-radius: 4pt;
+  border: 1px solid #060A1C;
+  font-family: Coves-Bold;
+  font-size: 14pt;
+  height: 30pt;
+  margin: 0pt;
+  padding: 0pt 0pt 0pt 10pt;
+  box-sizing: border-box;
+  float: left;
+}
+
+.subscribe-btn {
+  background-color: #060A1C;
+  border-top-right-radius: 4pt;
+  border-bottom-right-radius: 4pt;
+  border: 1px solid #060A1C;
+  color: #FFF;
+  font-family: Coves-Bold;
+  font-size: 14pt;
+  height: 30pt;
+  margin: 0pt;
+  padding: 0pt 10pt;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+}
+
+@media screen and (max-device-width: 500px) {
+  .email-field,
+  .subscribe-btn {
+    border-radius: 4pt;
+    display: block;
+    float: none;
+    margin-bottom: 10pt;
+    width: 100%
+  }
+}
+
 /* DRY CLASSES */
 
 .center {
