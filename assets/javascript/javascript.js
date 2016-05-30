@@ -1,11 +1,19 @@
-// $(document).ready(function() {
+jQuery(document).ready(function ($) {
 
-//   $('.apple').click(function(){
-//     mixpanel.track("AppStore click");
-//   });
+  var visitor_clicked_ios = false;
+  var visitor_clicked_android = false;
 
-//   $('.google').click(function(){
-//     mixpanel.track("PlayStore click");
-//   });
-// });
+  $('.apple').click(function(){
+    if (visitor_clicked_ios == false) {
+      mixpanel.track("AppStore click");
+      visitor_clicked_ios = true;
+    }
+  });
 
+  $('.google').click(function(){
+    if (visitor_clicked_android == false) {
+      mixpanel.track("PlayStore click");
+      visitor_clicked_android = true;
+    }
+  });
+});
